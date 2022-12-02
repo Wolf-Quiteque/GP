@@ -80,20 +80,21 @@ export default function Home() {
                 data-aos="fade-left"
                 data-aos-delay="100"
               >
-                <img src="assets/img/about.jpg" className="img-fluid" alt="" />
+                <img src="assets/img/pina.png" className="img-fluid" alt="" />
               </div>
               <div
+                style={{ marginTop: "10%" }}
                 className="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content"
                 data-aos="fade-right"
                 data-aos-delay="100"
               >
                 <h3>Quem somos?</h3>
-                <p className="fst-italic">
-                  Somosumaempresade marketing e vendas
-                  focadaemresultadosquepodeajudarsua empresaa crescer!
+                <p style={{ fontWeight: 500 }}>
+                  Somos uma empresa de marketing e vendas focada em resultados
+                  que pode ajudar sua empresaa crescer!
                 </p>
 
-                <p>
+                <p style={{ fontWeight: 500 }}>
                   Estamosno mercadohámaisde 3 anose somos
                   especialistasemgeraçãode crescimentopor meiode
                   estratégiasmarketing e vendas!
@@ -181,55 +182,26 @@ export default function Home() {
               <div
                 className="col-lg-6"
                 data-aos="fade-left"
+                style={{ marginTop: "5%" }}
                 data-aos-delay="100"
               >
                 <div
-                  className="icon-box mt-5 mt-lg-0"
+                  className="icon-box mt-10 mt-lg-0 text-center"
                   data-aos="zoom-in"
                   data-aos-delay="150"
                 >
-                  <i className="bx bx-receipt"></i>
-                  <h4>Est labore ad</h4>
-                  <p>
-                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur
-                    laboris nisi ut aliquip
-                  </p>
-                </div>
-                <div
-                  className="icon-box mt-5"
-                  data-aos="zoom-in"
-                  data-aos-delay="150"
-                >
-                  <i className="bx bx-cube-alt"></i>
-                  <h4>Harum esse qui</h4>
-                  <p>
-                    Excepteur sint occaecat cupidatat non proident, sunt in
-                    culpa qui officia deserunt
-                  </p>
-                </div>
-                <div
-                  className="icon-box mt-5"
-                  data-aos="zoom-in"
-                  data-aos-delay="150"
-                >
-                  <i className="bx bx-images"></i>
-                  <h4>Aut occaecati</h4>
-                  <p>
-                    Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut
-                    maiores omnis facere
-                  </p>
-                </div>
-                <div
-                  className="icon-box mt-5"
-                  data-aos="zoom-in"
-                  data-aos-delay="150"
-                >
-                  <i className="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>
-                    Expedita veritatis consequuntur nihil tempore laudantium
-                    vitae denat pacta
-                  </p>
+                  <h1
+                    style={{
+                      fontWeight: 700,
+                    }}
+                  >
+                    GASTA SUE TEMPO COM AQUILO QUE IMORTA
+                  </h1>
+
+                  <h4 style={{ fontWeight: 600, marginTop: "10%" }}>
+                    Ao terceirizar sua operação de marketing, você diminui seus
+                    custos e aumenta o seu retorno financeiro
+                  </h4>
                 </div>
               </div>
             </div>
@@ -238,8 +210,8 @@ export default function Home() {
         <section id="services" className="services">
           <div className="container" data-aos="fade-up">
             <div className="section-title">
-              <h2>Services</h2>
-              <p>Check our Services</p>
+              <h2>Nossos serviços</h2>
+              <p>Serviços Diversificadas</p>
             </div>
 
             <div className="row">
