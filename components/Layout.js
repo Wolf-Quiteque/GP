@@ -5,13 +5,13 @@ export default function Layout({ children }) {
     <>
       <header id="header" className="fixed-top">
         <div className="container d-flex align-items-center justify-content-lg-between">
-          <h1 className="logo me-auto me-lg-0">
-            <a href="index.html">
-              Wpt<span>.</span>
-            </a>
-          </h1>
           <a href="index.html" className="logo me-auto me-lg-0">
-            <img src="assets/img/logo.png" alt="" className="img-fluid" />
+            <img
+              src="assets/img/logo.png"
+              alt=""
+              className="img-fluid"
+              height={"300px"}
+            />
           </a>
 
           <nav id="navbar" className="navbar order-last order-lg-0">
@@ -39,12 +39,6 @@ export default function Layout({ children }) {
               <li>
                 <a className="nav-link scrollto" href="#team">
                   Equipa
-                </a>
-              </li>
-
-              <li>
-                <a className="nav-link scrollto" href="#team">
-                  Blog
                 </a>
               </li>
 
@@ -104,58 +98,28 @@ export default function Layout({ children }) {
               </div>
 
               <div className="col-lg-2 col-md-6 footer-links">
-                <h4>Useful Links</h4>
+                <h4>Links</h4>
                 <ul>
                   <li>
                     <i className="bx bx-chevron-right"></i> <a href="#">Home</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">About us</a>
+                    <a href="#">Sobre</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Services</a>
+                    <a href="#">Serviços</a>
                   </li>
                   <li>
                     <i className="bx bx-chevron-right"></i>
-                    <a href="#">Terms of service</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>
-                    <a href="#">Privacy policy</a>
-                  </li>
-                </ul>
-              </div>
-
-              <div className="col-lg-3 col-md-6 footer-links">
-                <h4>Our Services</h4>
-                <ul>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Web Design</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>
-                    <a href="#">Web Development</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>
-                    <a href="#">Product Management</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>{" "}
-                    <a href="#">Marketing</a>
-                  </li>
-                  <li>
-                    <i className="bx bx-chevron-right"></i>
-                    <a href="#">Graphic Design</a>
+                    <a href="#">Equipa</a>
                   </li>
                 </ul>
               </div>
 
               <div className="col-lg-4 col-md-6 footer-newsletter">
-                <h4>Our Newsletter</h4>
+                <h4>Nosso Newsletter</h4>
                 <p>
                   Tamen quem nulla quae legam multos aute sint culpa legam
                   noster magna
@@ -175,10 +139,10 @@ export default function Layout({ children }) {
             <strong>
               <span>Gp</span>
             </strong>
-            . All Rights Reserved
+            . Todos Direitos Reservado
           </div>
           <div className="credits">
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+            Criado por <a href="#">Cerfonte</a>
           </div>
         </div>
       </footer>

@@ -16,7 +16,7 @@ export default function Home() {
           >
             <div className="col-xl-6 col-lg-8">
               <h1>
-                Soluções Digitais com a GP<span>.</span>
+                Soluções Digitais com a WPT<span>.</span>
               </h1>
               <h2>Uma equipa talentosa de Marketing Digital</h2>
             </div>
@@ -29,22 +29,6 @@ export default function Home() {
           >
             <div className="col-xl-2 col-md-4">
               <div className="icon-box">
-                <i className="ri-store-line"></i>
-                <h3>
-                  <a href="">Gestão e planejamento de redes socias</a>
-                </h3>
-              </div>
-            </div>
-            <div className="col-xl-2 col-md-4">
-              <div className="icon-box">
-                <i className="ri-bar-chart-box-line"></i>
-                <h3>
-                  <a href="">Criação de marcas e branding</a>
-                </h3>
-              </div>
-            </div>
-            <div className="col-xl-2 col-md-4">
-              <div className="icon-box">
                 <i className="ri-calendar-todo-line"></i>
                 <h3>
                   <a href="">Links patrocinada</a>
@@ -53,7 +37,7 @@ export default function Home() {
             </div>
             <div className="col-xl-2 col-md-4">
               <div className="icon-box">
-                <i className="ri-paint-brush-line"></i>
+                <i className="ri-database-2-line"></i>
                 <h3>
                   <a href="">Gestão de site</a>
                 </h3>
@@ -61,9 +45,11 @@ export default function Home() {
             </div>
             <div className="col-xl-2 col-md-4">
               <div className="icon-box">
-                <i className="ri-database-2-line"></i>
+                <i className="ri-paint-brush-line"></i>
                 <h3>
-                  <a href="">Criação de site e E-commerece</a>
+                  <a href="">
+                    Criação de Site & <br /> E-commerece
+                  </a>
                 </h3>
               </div>
             </div>
@@ -95,9 +81,9 @@ export default function Home() {
                 </p>
 
                 <p style={{ fontWeight: 500 }}>
-                  Estamosno mercadohámaisde 3 anose somos
-                  especialistasemgeraçãode crescimentopor meiode
-                  estratégiasmarketing e vendas!
+                  Estamos no mercado há mais de 3 anos e somos especialistas em
+                  geração de crescimento por meio de estratégias marketing e
+                  vendas!
                 </p>
               </div>
             </div>
@@ -172,11 +158,11 @@ export default function Home() {
           </div>
         </section>
         <section id="features" className="features">
-          <div className="container" data-aos="fade-up">
+          <div data-aos="fade-up">
             <div className="row">
               <div
                 className="image col-lg-6"
-                style={{ backgroundImage: "url('assets/img/features.jpg')" }}
+                style={{ backgroundImage: "url('assets/img/time.png')" }}
                 data-aos="fade-right"
               ></div>
               <div
@@ -186,7 +172,7 @@ export default function Home() {
                 data-aos-delay="100"
               >
                 <div
-                  className="icon-box mt-10 mt-lg-0 text-center"
+                  className=" mt-10 mt-lg-0 text-center"
                   data-aos="zoom-in"
                   data-aos-delay="150"
                 >
@@ -220,17 +206,28 @@ export default function Home() {
                 data-aos="zoom-in"
                 data-aos-delay="100"
               >
-                <div className="icon-box">
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage:
+                      "url('assets/img/portfolio_ls_website_designs.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
                   <div className="icon">
                     <i className="bx bxl-dribbble"></i>
                   </div>
-                  <h4>
-                    <a href="">Lorem Ipsum</a>
-                  </h4>
-                  <p>
-                    Voluptatum deleniti atque corrupti quos dolores et quas
-                    molestias excepturi
-                  </p>
+                  <div>
+                    <h4>
+                      <a href="" style={{ color: "white" }}>
+                        Criação de sites e <br /> E-commerces
+                      </a>
+                    </h4>
+                    <p style={{ color: "white" }}>
+                      Voluptatum deleniti atque corrupti quos dolores et quas
+                      molestias excepturi
+                    </p>
+                  </div>
                 </div>
               </div>
 
@@ -239,14 +236,22 @@ export default function Home() {
                 data-aos="zoom-in"
                 data-aos-delay="200"
               >
-                <div className="icon-box">
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage: "url('assets/img/sales.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
                   <div className="icon">
                     <i className="bx bx-file"></i>
                   </div>
                   <h4>
-                    <a href="">Sed ut perspiciatis</a>
+                    <a href="" style={{ color: "white" }}>
+                      Prospecção ativa de vendas
+                    </a>
                   </h4>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Duis aute irure dolor in reprehenderit in voluptate velit
                     esse cillum dolore
                   </p>
@@ -258,14 +263,22 @@ export default function Home() {
                 data-aos="zoom-in"
                 data-aos-delay="300"
               >
-                <div className="icon-box">
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage: "url('assets/img/smedia.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
                   <div className="icon">
                     <i className="bx bx-tachometer"></i>
                   </div>
                   <h4>
-                    <a href="">Magni Dolores</a>
+                    <a href="" style={{ color: "white" }}>
+                      Gestão e planejamento de redes socias
+                    </a>
                   </h4>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Excepteur sint occaecat cupidatat non proident, sunt in
                     culpa qui officia
                   </p>
@@ -277,14 +290,22 @@ export default function Home() {
                 data-aos="zoom-in"
                 data-aos-delay="100"
               >
-                <div className="icon-box">
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage: "url('assets/img/palastra.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
                   <div className="icon">
                     <i className="bx bx-world"></i>
                   </div>
                   <h4>
-                    <a href="">Nemo Enim</a>
+                    <a style={{ color: "white" }} href="">
+                      Capacitação professional
+                    </a>
                   </h4>
-                  <p>
+                  <p style={{ color: "white" }}>
                     At vero eos et accusamus et iusto odio dignissimos ducimus
                     qui blanditiis
                   </p>
@@ -296,16 +317,105 @@ export default function Home() {
                 data-aos="zoom-in"
                 data-aos-delay="200"
               >
-                <div className="icon-box">
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage: "url('assets/img/marketing.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
                   <div className="icon">
                     <i className="bx bx-slideshow"></i>
                   </div>
                   <h4>
-                    <a href="">Dele cardo</a>
+                    <a style={{ color: "white" }} href="">
+                      Marketing digital e design diversos
+                    </a>
                   </h4>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Quis consequatur saepe eligendi voluptatem consequatur dolor
                     consequuntur
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage: "url('assets/img/logoo.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
+                  <div className="icon">
+                    <i className="bx bx-arch"></i>
+                  </div>
+                  <h4>
+                    <a style={{ color: "white" }} href="">
+                      Criação de marcas e branding
+                    </a>
+                  </h4>
+                  <p style={{ color: "white" }}>
+                    Modi nostrum vel laborum. Porro fugit error sit minus
+                    sapiente sit aspernatur
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage: "url('assets/img/iopo.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
+                  <div className="icon">
+                    <i className="bx bx-arch"></i>
+                  </div>
+                  <h4>
+                    <a style={{ color: "white" }} href="">
+                      Planejamento editorial e campanhas
+                    </a>
+                  </h4>
+                  <p style={{ color: "white" }}>
+                    Modi nostrum vel laborum. Porro fugit error sit minus
+                    sapiente sit aspernatur
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage: "url('assets/img/app.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
+                  <div className="icon">
+                    <i className="bx bx-arch"></i>
+                  </div>
+                  <h4>
+                    <a style={{ color: "white" }} href="">
+                      Criacão de aplicativo
+                    </a>
+                  </h4>
+                  <p style={{ color: "white" }}>
+                    Modi nostrum vel laborum. Porro fugit error sit minus
+                    sapiente sit aspernatur
                   </p>
                 </div>
               </div>
@@ -320,7 +430,44 @@ export default function Home() {
                     <i className="bx bx-arch"></i>
                   </div>
                   <h4>
-                    <a href="">Divera don</a>
+                    <a href="">Link patrocinados (anuncios)</a>
+                  </h4>
+                  <p>
+                    Modi nostrum vel laborum. Porro fugit error sit minus
+                    sapiente sit aspernatur
+                  </p>
+                </div>
+              </div>
+
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
+                <div className="icon-box">
+                  <div className="icon">
+                    <i className="bx bx-arch"></i>
+                  </div>
+                  <h4>
+                    <a href="">Gestão de site</a>
+                  </h4>
+                  <p>
+                    Modi nostrum vel laborum. Porro fugit error sit minus
+                    sapiente sit aspernatur
+                  </p>
+                </div>
+              </div>
+              <div
+                className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4"
+                data-aos="zoom-in"
+                data-aos-delay="300"
+              >
+                <div className="icon-box">
+                  <div className="icon">
+                    <i className="bx bx-arch"></i>
+                  </div>
+                  <h4>
+                    <a href="">Gestãode comercial</a>
                   </h4>
                   <p>
                     Modi nostrum vel laborum. Porro fugit error sit minus
@@ -334,15 +481,10 @@ export default function Home() {
         <section id="cta" className="cta">
           <div className="container" data-aos="zoom-in">
             <div className="text-center">
-              <h3>Call To Action</h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum.
-              </p>
+              <h3>Podemos ajudar o seu negócio!</h3>
+              <p>Somos especialistas em marketing e vendas!</p>
               <a className="cta-btn" href="#">
-                Call To Action
+                Entre em Contacto
               </a>
             </div>
           </div>
@@ -723,7 +865,7 @@ export default function Home() {
                       alt=""
                     />
                     <h3>Saul Goodman</h3>
-                    <h4>Ceo &amp; Founder</h4>
+                    <h4>Cliente</h4>
                     <p>
                       <i className="bx bxs-quote-alt-left quote-icon-left"></i>
                       Proin iaculis purus consequat sem cure digni ssim donec
@@ -743,7 +885,7 @@ export default function Home() {
                       alt=""
                     />
                     <h3>Sara Wilsson</h3>
-                    <h4>Designer</h4>
+                    <h4>Cliente</h4>
                     <p>
                       <i className="bx bxs-quote-alt-left quote-icon-left"></i>
                       Export tempor illum tamen malis malis eram quae irure esse
@@ -763,7 +905,7 @@ export default function Home() {
                       alt=""
                     />
                     <h3>Jena Karlis</h3>
-                    <h4>Store Owner</h4>
+                    <h4>Cliente</h4>
                     <p>
                       <i className="bx bxs-quote-alt-left quote-icon-left"></i>
                       Enim nisi quem export duis labore cillum quae magna enim
@@ -782,7 +924,7 @@ export default function Home() {
                       alt=""
                     />
                     <h3>Matt Brandon</h3>
-                    <h4>Freelancer</h4>
+                    <h4>Cliente</h4>
                     <p>
                       <i className="bx bxs-quote-alt-left quote-icon-left"></i>
                       Fugiat enim eram quae cillum dolore dolor amet nulla culpa
@@ -802,7 +944,7 @@ export default function Home() {
                       alt=""
                     />
                     <h3>John Larson</h3>
-                    <h4>Entrepreneur</h4>
+                    <h4>Cliente</h4>
                     <p>
                       <i className="bx bxs-quote-alt-left quote-icon-left"></i>
                       Quis quorum aliqua sint quem legam fore sunt eram irure
@@ -821,8 +963,8 @@ export default function Home() {
         <section id="team" className="team">
           <div className="container" data-aos="fade-up">
             <div className="section-title">
-              <h2>Team</h2>
-              <p>Check our Team</p>
+              <h2>Equipe</h2>
+              <p>Nossa Equipa</p>
             </div>
 
             <div className="row">
@@ -850,8 +992,8 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="member-info">
-                    <h4>Walter White</h4>
-                    <span>Chief Executive Officer</span>
+                    <h4>CEO</h4>
+                    <span>Wilson Pina</span>
                   </div>
                 </div>
               </div>
@@ -881,7 +1023,7 @@ export default function Home() {
                   </div>
                   <div className="member-info">
                     <h4>Sarah Jhonson</h4>
-                    <span>Product Manager</span>
+                    <span>Dir. Marketing</span>
                   </div>
                 </div>
               </div>
@@ -951,8 +1093,8 @@ export default function Home() {
         <section id="contact" className="contact">
           <div className="container" data-aos="fade-up">
             <div className="section-title">
-              <h2>Contact</h2>
-              <p>Contact Us</p>
+              <h2>Contacto</h2>
+              <p>Entre em Contacto</p>
             </div>
 
             <div>
@@ -969,7 +1111,7 @@ export default function Home() {
                 <div className="info">
                   <div className="address">
                     <i className="bi bi-geo-alt"></i>
-                    <h4>Location:</h4>
+                    <h4>Localização:</h4>
                     <p>A108 Adam Street, New York, NY 535022</p>
                   </div>
 
@@ -981,7 +1123,7 @@ export default function Home() {
 
                   <div className="phone">
                     <i className="bi bi-phone"></i>
-                    <h4>Call:</h4>
+                    <h4>Telefone:</h4>
                     <p>+1 5589 55488 55s</p>
                   </div>
                 </div>
@@ -1001,7 +1143,7 @@ export default function Home() {
                         name="name"
                         className="form-control"
                         id="name"
-                        placeholder="Your Name"
+                        placeholder="Seu Nome"
                         required
                       />
                     </div>
@@ -1011,7 +1153,7 @@ export default function Home() {
                         className="form-control"
                         name="email"
                         id="email"
-                        placeholder="Your Email"
+                        placeholder="Seu Email"
                         required
                       />
                     </div>
@@ -1031,7 +1173,7 @@ export default function Home() {
                       className="form-control"
                       name="message"
                       rows="5"
-                      placeholder="Message"
+                      placeholder="Mensagem"
                       required
                     ></textarea>
                   </div>
@@ -1043,7 +1185,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="text-center">
-                    <button type="submit">Send Message</button>
+                    <button type="submit">Enviar</button>
                   </div>
                 </form>
               </div>
