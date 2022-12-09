@@ -4,6 +4,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>WPT - MARKETING DIGITAL</title>
+      </Head>
       <section
         id="hero"
         className="d-flex align-items-center justify-content-center"
@@ -425,17 +428,22 @@ export default function Home() {
                 data-aos="zoom-in"
                 data-aos-delay="300"
               >
-                <div className="icon-box">
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage: "url('assets/img/likes.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
                   <div className="icon">
                     <i className="bx bx-arch"></i>
                   </div>
                   <h4>
-                    <a href="">Link patrocinados (anuncios)</a>
+                    <a style={{ color: "white" }} href="">
+                      Link patrocinados (anuncios)
+                    </a>
                   </h4>
-                  <p>
-                    Modi nostrum vel laborum. Porro fugit error sit minus
-                    sapiente sit aspernatur
-                  </p>
+                  <p></p>
                 </div>
               </div>
 
@@ -444,14 +452,22 @@ export default function Home() {
                 data-aos="zoom-in"
                 data-aos-delay="300"
               >
-                <div className="icon-box">
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage: "url('assets/img/web.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
                   <div className="icon">
                     <i className="bx bx-arch"></i>
                   </div>
                   <h4>
-                    <a href="">Gestão de site</a>
+                    <a style={{ color: "white" }} href="">
+                      Gestão de site
+                    </a>
                   </h4>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Modi nostrum vel laborum. Porro fugit error sit minus
                     sapiente sit aspernatur
                   </p>
@@ -462,14 +478,22 @@ export default function Home() {
                 data-aos="zoom-in"
                 data-aos-delay="300"
               >
-                <div className="icon-box">
+                <div
+                  className="icon-box"
+                  style={{
+                    backgroundImage: "url('assets/img/gest.png')",
+                    backgroundSize: "cover",
+                  }}
+                >
                   <div className="icon">
                     <i className="bx bx-arch"></i>
                   </div>
                   <h4>
-                    <a href="">Gestãode comercial</a>
+                    <a style={{ color: "white" }} href="">
+                      Gestão de comercial
+                    </a>
                   </h4>
-                  <p>
+                  <p style={{ color: "white" }}>
                     Modi nostrum vel laborum. Porro fugit error sit minus
                     sapiente sit aspernatur
                   </p>
@@ -489,276 +513,7 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <section id="portfolio" className="portfolio">
-          <div className="container" data-aos="fade-up">
-            <div className="section-title">
-              <h2>Portfolio</h2>
-              <p>Check our Portfolio</p>
-            </div>
 
-            <div className="row" data-aos="fade-up" data-aos-delay="100">
-              <div className="col-lg-12 d-flex justify-content-center">
-                <ul id="portfolio-flters">
-                  <li data-filter="*" className="filter-active">
-                    All
-                  </li>
-                  <li data-filter=".filter-app">App</li>
-                  <li data-filter=".filter-card">Card</li>
-                  <li data-filter=".filter-web">Web</li>
-                </ul>
-              </div>
-            </div>
-
-            <div
-              className="row portfolio-container"
-              data-aos="fade-up"
-              data-aos-delay="200"
-            >
-              <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-1.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-info">
-                    <h4>App 1</h4>
-                    <p>App</p>
-                    <div className="portfolio-links">
-                      <a
-                        href="assets/img/portfolio/portfolio-1.jpg"
-                        data-gallery="portfolioGallery"
-                        className="portfolio-lightbox"
-                        title="App 1"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-2.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-info">
-                    <h4>Web 3</h4>
-                    <p>Web</p>
-                    <div className="portfolio-links">
-                      <a
-                        href="assets/img/portfolio/portfolio-2.jpg"
-                        data-gallery="portfolioGallery"
-                        className="portfolio-lightbox"
-                        title="Web 3"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-3.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-info">
-                    <h4>App 2</h4>
-                    <p>App</p>
-                    <div className="portfolio-links">
-                      <a
-                        href="assets/img/portfolio/portfolio-3.jpg"
-                        data-gallery="portfolioGallery"
-                        className="portfolio-lightbox"
-                        title="App 2"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-4.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-info">
-                    <h4>Card 2</h4>
-                    <p>Card</p>
-                    <div className="portfolio-links">
-                      <a
-                        href="assets/img/portfolio/portfolio-4.jpg"
-                        data-gallery="portfolioGallery"
-                        className="portfolio-lightbox"
-                        title="Card 2"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-5.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-info">
-                    <h4>Web 2</h4>
-                    <p>Web</p>
-                    <div className="portfolio-links">
-                      <a
-                        href="assets/img/portfolio/portfolio-5.jpg"
-                        data-gallery="portfolioGallery"
-                        className="portfolio-lightbox"
-                        title="Web 2"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-app">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-6.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-info">
-                    <h4>App 3</h4>
-                    <p>App</p>
-                    <div className="portfolio-links">
-                      <a
-                        href="assets/img/portfolio/portfolio-6.jpg"
-                        data-gallery="portfolioGallery"
-                        className="portfolio-lightbox"
-                        title="App 3"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-7.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-info">
-                    <h4>Card 1</h4>
-                    <p>Card</p>
-                    <div className="portfolio-links">
-                      <a
-                        href="assets/img/portfolio/portfolio-7.jpg"
-                        data-gallery="portfolioGallery"
-                        className="portfolio-lightbox"
-                        title="Card 1"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-card">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-8.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-info">
-                    <h4>Card 3</h4>
-                    <p>Card</p>
-                    <div className="portfolio-links">
-                      <a
-                        href="assets/img/portfolio/portfolio-8.jpg"
-                        data-gallery="portfolioGallery"
-                        className="portfolio-lightbox"
-                        title="Card 3"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="col-lg-4 col-md-6 portfolio-item filter-web">
-                <div className="portfolio-wrap">
-                  <img
-                    src="assets/img/portfolio/portfolio-9.jpg"
-                    className="img-fluid"
-                    alt=""
-                  />
-                  <div className="portfolio-info">
-                    <h4>Web 3</h4>
-                    <p>Web</p>
-                    <div className="portfolio-links">
-                      <a
-                        href="assets/img/portfolio/portfolio-9.jpg"
-                        data-gallery="portfolioGallery"
-                        className="portfolio-lightbox"
-                        title="Web 3"
-                      >
-                        <i className="bx bx-plus"></i>
-                      </a>
-                      <a href="portfolio-details.html" title="More Details">
-                        <i className="bx bx-link"></i>
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         <section id="counts" className="counts">
           <div className="container" data-aos="fade-up">
             <div className="row no-gutters">
@@ -773,74 +528,92 @@ export default function Home() {
                 data-aos-delay="100"
               >
                 <div className="content d-flex flex-column justify-content-center">
-                  <h3>Voluptatem dignissimos provident quasi</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Duis aute irure dolor in reprehenderit
-                  </p>
                   <div className="row">
-                    <div className="col-md-6 d-md-flex align-items-md-stretch">
+                    <div
+                      className="col-md-12 text-center"
+                      style={{ marginTop: "-20px" }}
+                    >
+                      {" "}
+                      <h3>Encontre qualquer solução</h3>
+                    </div>
+                  </div>
+                  <div className="row">
+                    <div className="col-md-12 d-md-flex align-items-md-stretch">
                       <div className="count-box">
-                        <i className="bi bi-emoji-smile"></i>
-                        <span
-                          data-purecounter-start="0"
-                          data-purecounter-end="65"
-                          data-purecounter-duration="2"
-                          className="purecounter"
-                        ></span>
-                        <p>
-                          <strong>Happy Clients</strong> consequuntur voluptas
-                          nostrum aliquid ipsam architecto ut.
-                        </p>
+                        <span className="purecounter text-center">
+                          Problema
+                        </span>
+                        <div className="row">
+                          <div className="col-md-6">
+                            <p>
+                              *Dificuldade de criar{" "}
+                              <strong>planos de marketing e vendas</strong>, ou
+                              estruturar uma equipe dedicada a isso.
+                            </p>
+                          </div>
+
+                          <div className="col-md-6">
+                            <p>
+                              *Falta de alinhamento entre as vendas e marketing.
+                            </p>
+                          </div>
+
+                          <div className="col-md-6">
+                            <p>*Canais de comunicação errados</p>
+                          </div>
+
+                          <div className="col-md-6">
+                            <p>*Não elaborar bem a jornada de compra</p>
+                          </div>
+
+                          <div className="col-md-6">
+                            <p>* Falta de definição de processos</p>
+                          </div>
+                        </div>
                       </div>
                     </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-                    <div className="col-md-6 d-md-flex align-items-md-stretch">
+            <div className="row no-gutters">
+              <div
+                className="col-md-12 ps-0 ps-lg-5 pe-lg-1 d-flex align-items-stretch"
+                data-aos="fade-left"
+                data-aos-delay="100"
+              >
+                <div className="content d-flex flex-column justify-content-center">
+                  <div className="row">
+                    <div className="col-md-12 d-md-flex align-items-md-stretch">
                       <div className="count-box">
-                        <i className="bi bi-journal-richtext"></i>
-                        <span
-                          data-purecounter-start="0"
-                          data-purecounter-end="85"
-                          data-purecounter-duration="2"
-                          className="purecounter"
-                        ></span>
-                        <p>
-                          <strong>Projects</strong> adipisci atque cum quia
-                          aspernatur totam laudantium et quia dere tan
-                        </p>
-                      </div>
-                    </div>
+                        <span className="purecounter text-center mb-4">
+                          Solução
+                        </span>
+                        <div className="row">
+                          <div className="col-md-6">
+                            <p>*Matriz FOFA</p>
+                          </div>
 
-                    <div className="col-md-6 d-md-flex align-items-md-stretch">
-                      <div className="count-box">
-                        <i className="bi bi-clock"></i>
-                        <span
-                          data-purecounter-start="0"
-                          data-purecounter-end="35"
-                          data-purecounter-duration="4"
-                          className="purecounter"
-                        ></span>
-                        <p>
-                          <strong>Years of experience</strong> aut commodi
-                          quaerat modi aliquam nam ducimus aut voluptate non vel
-                        </p>
-                      </div>
-                    </div>
+                          <div className="col-md-6">
+                            <p>*Criar iniciativa de BENCHMARKING</p>
+                          </div>
 
-                    <div className="col-md-6 d-md-flex align-items-md-stretch">
-                      <div className="count-box">
-                        <i className="bi bi-award"></i>
-                        <span
-                          data-purecounter-start="0"
-                          data-purecounter-end="20"
-                          data-purecounter-duration="4"
-                          className="purecounter"
-                        ></span>
-                        <p>
-                          <strong>Awards</strong> rerum asperiores dolor alias
-                          quo reprehenderit eum et nemo pad der
-                        </p>
+                          <div className="col-md-6">
+                            <p>* Marketing de conteúdo</p>
+                          </div>
+
+                          <div className="col-md-6">
+                            <p>*Não elaborar bem a jornada de compra</p>
+                          </div>
+
+                          <div className="col-md-6">
+                            <p>
+                              *LEADS QUALIFICADOS pelo marketing e a conversão
+                              desses pela equipe de vendas
+                            </p>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -972,7 +745,7 @@ export default function Home() {
                 <div className="member" data-aos="fade-up" data-aos-delay="100">
                   <div className="member-img">
                     <img
-                      src="assets/img/team/team-1.jpg"
+                      src="assets/img/photo1669937813.jpeg"
                       className="img-fluid"
                       alt=""
                     />
@@ -1002,7 +775,7 @@ export default function Home() {
                 <div className="member" data-aos="fade-up" data-aos-delay="200">
                   <div className="member-img">
                     <img
-                      src="assets/img/team/team-2.jpg"
+                      src="assets/img/hernany.png"
                       className="img-fluid"
                       alt=""
                     />
@@ -1022,7 +795,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="member-info">
-                    <h4>Sarah Jhonson</h4>
+                    <h4>Hernany Joel</h4>
                     <span>Dir. Marketing</span>
                   </div>
                 </div>
@@ -1112,19 +885,19 @@ export default function Home() {
                   <div className="address">
                     <i className="bi bi-geo-alt"></i>
                     <h4>Localização:</h4>
-                    <p>A108 Adam Street, New York, NY 535022</p>
+                    <p>Patriota, edificio Mand-zoew </p>
                   </div>
 
                   <div className="email">
                     <i className="bi bi-envelope"></i>
                     <h4>Email:</h4>
-                    <p>info@example.com</p>
+                    <p>wpt120@gmail.com</p>
                   </div>
 
                   <div className="phone">
                     <i className="bi bi-phone"></i>
                     <h4>Telefone:</h4>
-                    <p>+1 5589 55488 55s</p>
+                    <p>+244 944 517 735</p>
                   </div>
                 </div>
               </div>
